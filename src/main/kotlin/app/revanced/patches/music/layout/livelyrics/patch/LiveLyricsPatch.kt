@@ -26,11 +26,11 @@ import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 @MusicCompatibility
 @Version("0.0.1")
 class LiveLyricsPatch : BytecodePatch(
-    listOf(NewLayoutFingerprint)
+    listOf(LiveLyricsFingerprint)
 ) {
     override fun execute(context: BytecodeContext): PatchResult {
 
-        NewLayoutFingerprint.result?.let {
+        LiveLyricsFingerprint.result?.let {
             it.mutableMethod.apply {
                 val insertIndex = implementation!!.instructions.size - 1
                 val targetRegister = getInstruction<OneRegisterInstruction>(insertIndex).registerA
@@ -42,7 +42,7 @@ class LiveLyricsPatch : BytecodePatch(
                         """
                 )
             }
-        } ?: return NewLayoutFingerprint.toErrorResult()
+        } ?: return LiveLyricsFingerprint.toErrorResult()
 
         SettingsPatch.addMusicPreference(
             CategoryType.LAYOUT,
