@@ -133,7 +133,7 @@ The official ReVanced Extended Patches.
 | `enable-force-minimized-player` | Permanently keep player minimized even if another track is played. | all |
 | `enable-force-shuffle` | Enable force shuffle even if another track is played. | all |
 | `enable-landscape-mode` | Enables entry into landscape mode by screen rotation on the phone. | all |
-| `enable-live-lyrics` | Enable live lyrics. (YT Music v5.47.51+) | all |
+| `enable-live-lyrics` | Enable live lyrics | all |
 | `enable-minimized-playback` | Enables minimized playback on Kids music. | all |
 | `enable-new-layout` | Enable new player layouts. (YT Music v5.47.51+) | all |
 | `enable-old-style-miniplayer` | Return the miniplayers to old style. (for YT Music v5.55.53+) | all |
