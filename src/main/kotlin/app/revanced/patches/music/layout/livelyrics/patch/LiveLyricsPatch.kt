@@ -21,7 +21,7 @@ import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 
 @Patch
 @Name("enable-live-lyrics")
-@Description("Enable live lyrics. (YT Music v5.47.51+)")
+@Description("Enable live lyrics")
 @DependsOn([SettingsPatch::class])
 @MusicCompatibility
 @Version("0.0.1")
