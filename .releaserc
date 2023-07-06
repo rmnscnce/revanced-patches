@@ -4,7 +4,8 @@
     {
       "name": "dev",
       "prerelease": true
-    }
+    },
+    "rvxperiments"
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
@@ -45,3 +46,4 @@
     ]
   ]
 }
+
