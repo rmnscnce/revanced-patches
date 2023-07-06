@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/rmnscnce/revanced-patches/compare/v1.0.2...v1.0.3) (2023-07-06)
+
+
+### Bug Fixes
+
+* **music:** fix ([5dd072e](https://github.com/rmnscnce/revanced-patches/commit/5dd072e77bc218eede2a44259f880c5f740cd675))
+
 ## [1.0.2](https://github.com/rmnscnce/revanced-patches/compare/v1.0.1...v1.0.2) (2023-07-06)
 
 
