@@ -6,5 +6,5 @@ import app.revanced.util.bytecode.isWide32LiteralExists
 object LiveLyricsFingerprint : MethodFingerprint(
     returnType = "Z",
     parameters = emptyList(),
-    customFingerprint = { methodDef, _ -> methodDef.isWide32LiteralExists(45414336) }
+    customFingerprint = { methodDef, _ -> methodDef.isWide32LiteralExists(45366353) }
 )
